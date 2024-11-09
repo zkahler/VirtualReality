@@ -1,10 +1,12 @@
 /*This css styles sheet was created by: Jeremy Kirkpatrick, 11/8/24 -->
-/* General styles */
+//* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff; /* Change text to white */
+    background-color: #121212; /* Dark background */
 }
 
 #container {
@@ -14,14 +16,14 @@ body {
 }
 
 header, footer {
-    background-color: #333;
+    background-color: #333; /* Darker background */
     color: #fff;
     text-align: center;
     padding: 1em 0;
 }
 
 nav {
-    background-color: #444;
+    background-color: #444; /* Darker background */
 }
 
 nav ul {
@@ -37,7 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #fff; /* White text */
     text-decoration: none;
     padding: 1em;
     display: block;
@@ -71,19 +73,22 @@ form input, form textarea {
     margin-top: 0.5em;
     padding: 0.5em;
     font-size: 1em;
+    background-color: #333; /* Dark background for inputs */
+    color: #fff; /* White text for inputs */
+    border: 1px solid #555; /* Border color for inputs */
 }
 
 form input[type="submit"] {
     margin-top: 1em;
     padding: 0.7em;
-    background-color: #333;
+    background-color: #444; /* Darker background */
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 form input[type="submit"]:hover {
-    background-color: #555;
+    background-color: #555; /* Darker background on hover */
 }
 
 /* Mobile styles */
