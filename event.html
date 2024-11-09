@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- This website template was created by: Jeremy Kirkpatrick, 11/8/24 Edited by Jeremy Kirkpatrick and Zach Kahler 11/9/24-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,13 +10,13 @@
 <body>
     <div id="container">
         <header>
-            <h1>e</h1>
+            <h1>You're Invited: Tech Innovations Conference</h1>
         </header>
         
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="aframe1.html">Demo</a></li>
+                <li><a href="aframe.html">VR Space Demo</a></li>
                 <li><a href="event.html">Event</a></li>
             </ul>
         </nav>
@@ -24,42 +25,42 @@
             <section>
                 <h2>Event Details</h2>
                 <p><strong>Date:</strong> December 15, 2024</p>
-                <p><strong>Time:</strong> 10:00 AM - 6:30 PM</p>
-                <p><strong>Location:</strong> Sioux Falls Convention Center, 1201 West Lyon Ave, Sioux Falls, SD</p>
-                <iframe
-                    width="600"
-                    height="450"
-                    style="border:0"
-                    loading="lazy"
-                    allowfullscreen
-                    referrerpolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Sioux+Falls+Convention+Center,Sioux+Falls,SD">
+                <p><strong>Time:</strong> 10:00 AM - 4:00 PM</p>
+                <p><strong>Location:</strong> Sioux Falls Convention Center, 1201 N West Ave, Sioux Falls, SD 57104</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5782.329421138334!2d-96.75523491276658!3d43.56145088387281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x878eca82a0219447%3A0x6ea613ac1e937f4!2sSioux%20Falls%20Convention%20Center!5e0!3m2!1sen!2sus!4v1731173809740!5m2!1sen!2sus" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
-
             </section>
             
             <section>
                 <h2>RSVP</h2>
-                <form id="rsvp-form">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    
-                    <label for="attendees">Number of Attendees:</label>
-                    <input type="number" id="attendees" name="attendees" required min="1">
-                    
-                    <label for="comments">Comments:</label>
-                    <textarea id="comments" name="comments"></textarea>
-                    
-                    <input type="submit" value="RSVP">
-                </form>
+                <div class="form-container">
+                    <form id="rsvp-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="attendees">Number of Attendees:</label>
+                        <input type="number" id="attendees" name="attendees" required min="1">
+                        
+                        <label for="comments">Comments:</label>
+                        <textarea id="comments" name="comments"></textarea>
+                        
+                        <input type="submit" value="RSVP">
+                    </form>
+                </div>
             </section>
         </main>
         
         <footer>
-            <p>&copy; 2024 Tech Innovations Conference</p>
+            <p>&copy; Zach Kahler, &copy; Jeremy Kirkpatrick </p>
         </footer>
     </div>
 </body>

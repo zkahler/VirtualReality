@@ -1,3 +1,4 @@
+/*This css styles sheet was created by: Jeremy Kirkpatrick, 11/8/24 -->
 /* General styles */
 body {
     font-family: Arial, sans-serif;
@@ -45,6 +46,44 @@ nav ul li a {
 main {
     flex: 1;
     padding: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+form input[type="submit"] {
+    margin-top: 1em;
+    padding: 0.7em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
 }
 
 /* Mobile styles */
